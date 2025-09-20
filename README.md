@@ -25,3 +25,19 @@ When a player is in the shooting phase, there are two options: selecting a shot 
 If a player chooses a target LED to shoot, on button confirmation, the target information will be sent to the other Arduino, where it will return a HIT or MISS code. If a MISS code is returned, the other Arduino moves into the shooting phase while the shooter switches to idle. If a HIT command is returned, the Arduino that returns this command will briefly wait for a GAME WON response from the shooting Arduino, which will send that message if their score reaches 2 from the previous hit. If GAME WON is received by the other Arduino, it will reset, with the other player resetting as well, because their score has reached 2 points, prompting a new game cycle.
 
 If the Arduino receives a HIT command, and the GAME WON signal is not sent back, the game continues with both players moving back into the ship selection phase o choose a new ship location. The player who got the hit will have a winner’s advantage, shooting first again when the next round begins.
+
+## Documentation
+File | Contents
+---- | --------
+`datasheets/000036 - datasheet KY-023-Joy-IT.pdf` | Joystick datasheet.
+`datasheets/0900766b80c0c368.pdf.pdf` | 74HC32 quad 2- input OR gate datasheet.
+`datasheets/1811151426_Wuxi-ARK-Tech-Elec-SM471801N_C193718.pdf` | 7-segment display datasheet.
+`datasheets/Button.pdf` | Button datasheet.
+`datasheets/LEDRGB-L-154A4SURK.pdf` | LED datasheet.
+`datasheets/Passive buzzer.pdf` | Passive buzzer datasheet.
+`datasheets/TC74HC04AF_ToshibaSemiconductor.pdf` | 74HC04 hex inverter datasheet.
+`datasheets/TC74HC08AF_ToshibaSemiconductor.pdf` | 74HC08 quad 2-input AND gate datasheet.
+`schematics/3x3 LED Matrix Wiring.png` | 3x3 LED matrix wiring.
+`schematics/Arduino, Buzzer, Joystick, and Button Wiring.png` | Arduino, buzzer, joystick, and button wiring.
+
+
