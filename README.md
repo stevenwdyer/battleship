@@ -7,3 +7,9 @@ This project is a scaled-down recreation of the strategy game titled "Battleship
 <img src="https://i.imgur.com/DaJOfOU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/iRiCjK2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+## Design
+
+<img src="https://i.imgur.com/DbFibRV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/ij30NSP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
